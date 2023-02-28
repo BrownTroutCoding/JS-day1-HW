@@ -77,3 +77,16 @@ let divided = num => {
 }
 
 console.log(divided(50))
+
+// divisible by
+function modulo() {
+    let num1 = 20;
+    let num2 = 2;
+    if (num1 % num2 === 0) {
+        return "num 1 is perfectly divisible by num 2"
+    } else {
+        return "Not perfectly divisible"
+    }
+}
+
+console.log(modulo())
